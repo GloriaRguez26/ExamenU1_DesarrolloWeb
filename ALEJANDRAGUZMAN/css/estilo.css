@@ -21,7 +21,7 @@ body{
    position: relative;
    display: grid;
    grid-template-rows: 100px 1fr;
-   color: violet;
+   color: rgb(99, 16, 32);
 }
 .hero::before{
     content: "";
@@ -91,7 +91,7 @@ body{
 }
 .cta{
     display: inline-block;
-    background-color: crimson;
+    background-color:rgb(118, 118, 210);
     justify-self: center;
     color: aliceblue;
     text-decoration: none;
@@ -100,7 +100,7 @@ body{
 }
 .about{
     text-align: center;
-background-color: #e7c0ed;
+background-color: rgb(191, 243, 196);
 }
 .subtitle{
     color: var(--color-title);
@@ -168,7 +168,7 @@ overflow: hidden;
     align-items: center;
 }
 .concert-element{
-    background-color:#e7c0ed;
+    background-color: rgb(191, 243, 196);
     text-align: center;
     border-radius: 10px;
     width: 330px;
@@ -198,7 +198,7 @@ overflow: hidden;
     color: var(--color-items);
 }
 .news{
-    background-color: #e7c0ed;
+    background-color: rgb(118, 118, 210);
 }
 .news-container{
     display: grid;
@@ -233,7 +233,7 @@ overflow: hidden;
     max-width: 700px;
 }
 .news-description{
-    background-color: rgb(239, 144, 163);
+    background-color: rgb(191, 243, 196);
     color: #0000008c;
     display: inline-block;
     padding: 5px;
@@ -243,7 +243,7 @@ overflow: hidden;
     cursor: pointer;
 }
 .footer{
-    background-color: #e7c0ed;
+    background-color: rgb(118, 118, 210);
 }
 .footer-title{
     font-weight: 300;
