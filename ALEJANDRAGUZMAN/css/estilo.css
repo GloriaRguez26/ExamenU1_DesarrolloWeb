@@ -21,7 +21,7 @@ body{
    position: relative;
    display: grid;
    grid-template-rows: 100px 1fr;
-   color: rgb(225, 239, 22);
+   color: rgb(13, 228, 193);
 }
 .hero::before{
     content: "";
@@ -91,7 +91,7 @@ body{
 }
 .cta{
     display: inline-block;
-    background-color:rgb(144, 30, 91);
+    background-color:rgb(34, 144, 30);
     justify-self: center;
     color: aliceblue;
     text-decoration: none;
@@ -100,7 +100,6 @@ body{
 }
 .about{
     text-align: center;
-background-color: rgb(191, 243, 196);
 }
 .subtitle{
     color: var(--color-title);
@@ -224,7 +223,7 @@ overflow: hidden;
     color: var(--color-items);
 }
 .news{
-    background-color: rgb(118, 118, 210);
+    background-color: rgb(69, 151, 218);
 }
 .news-container{
     display: grid;
@@ -259,7 +258,7 @@ overflow: hidden;
     max-width: 700px;
 }
 .news-description{
-    background-color: rgb(191, 243, 196);
+    background-color: rgb(191, 221, 249);
     color: #0000008c;
     display: inline-block;
     padding: 5px;
@@ -269,7 +268,7 @@ overflow: hidden;
     cursor: pointer;
 }
 .footer{
-    background-color: rgb(118, 118, 210);
+    background-color:  rgb(69, 151, 218);
 }
 .footer-title{
     font-weight: 300;
